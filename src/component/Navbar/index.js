@@ -44,13 +44,12 @@ const ResponsiveAppBar = () => {
         <>
             <Container maxWidth='lg'>
                 <Box sx={{ display: { xs: 'block', sm: 'flex' },justifyContent:'space-between',alignItems:'center' }}>
-                    <Box >
+                    <Box sx={{display:'flex',justifyContent:'center',flexDirection:{xs:'column',sm:'row'}}}>
                         <Button sx={{ color: 'white', fontWeight: 'bold' }} startIcon={<PhoneIcon />}>000 111 2222</Button>
                         <Button sx={{ color: 'white', fontWeight: 'bold' }} startIcon={<EmailOutlinedIcon />}>example@email.com</Button>
                     </Box>
-                    <Box sx={{ display: { xs: 'flex' } }}>
+                    <Box sx={{ display:'flex' ,justifyContent:'center'}}>
                         {socialicons.map((icon) => (
-
                             <IconButton aria-label="delete" sx={{ p: 2,mx:2, color: 'white', display: 'block', fontWeight: "bold" }}>
                                 {icon}
                             </IconButton>
