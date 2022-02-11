@@ -12,7 +12,7 @@ function HomeScreen() {
       <Navbar />
       <Container maxWidth='lg'>
         <Box sx={{ maxWidth: '611px',color:'white',marginTop:'144px', }}>
-          <Typography variant='h5'>At Oreo Studios</Typography>
+          <Typography variant='h5'>At Oreo Studiosaa</Typography>
           <Typography variant='h2'>We Build Custom Mobile Applications</Typography>
           <Typography variant='h5'>For Business</Typography>
         </Box>
