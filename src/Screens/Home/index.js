@@ -7,6 +7,7 @@ import Typography from '@mui/material/Typography';
 function HomeScreen() {
 
   return (
+
     <div className="heroContainer">
       <Navbar />
       <Container maxWidth='lg'>
@@ -16,6 +17,7 @@ function HomeScreen() {
           <Typography variant='h5'>For Business</Typography>
         </Box>
       </Container>
+
     </div>
 
 
